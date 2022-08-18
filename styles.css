@@ -1,0 +1,34 @@
+.bgcustomclr {
+    background-color: black;
+}
+section {
+    width: 100%;
+    min-height: 100vh;
+}
+.home {
+    background-image: url(/homepic2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.about {
+    background-color: black;
+}
+.pictures {
+    background-color: black;
+}
+.video {
+    background-color: black;
+}
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.video-wrapper iframe {
+    position: absolute;
+    width: 70%;
+    height: 60%;
+    left: 15%;
+}
